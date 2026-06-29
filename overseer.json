@@ -1,0 +1,14 @@
+{
+  "id": "@local/d20-iron-roller",
+  "name": "Iron d20 Roller",
+  "version": "1.0.0",
+  "description": "A rugged d20 dice tool with modifier support and roll history.",
+  "main": "dist/index.js",
+  "shortcuts": [
+    {
+      "id": "quick-roll-d20",
+      "name": "Dice: Quick d20 Roll",
+      "default": "Ctrl+Shift+D"
+    }
+  ]
+}

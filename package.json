@@ -1,0 +1,19 @@
+{
+  "name": "iron-roller-plugin",
+  "version": "1.0.0",
+  "description": "Overseer d20 roller",
+  "main": "index.js",
+ "scripts": {
+  "overseer": "overseer",
+  "build": "esbuild src/index.js --bundle --outfile=dist/index.js --format=esm --minify",
+  "watch": "esbuild src/index.js --bundle --outfile=dist/index.js --format=esm --watch"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@overseer-studio/sdk": "^0.7.1",
+    "esbuild": "^0.28.1"
+  }
+}
